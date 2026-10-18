@@ -1,0 +1,14 @@
+# Compiled files
+bin/
+out/
+target/
+*.class
+
+# Eclipse
+.metadata/
+.settings/
+.classpath
+.project
+
+# macOS
+.DS_Store

@@ -10,9 +10,9 @@ From this directory:
 
 ```sh
 mkdir -p out
-javac --release 17 -d out src/*.java test/*.java
-java -cp out Main
-java -cp out PortfolioTest
+javac --release 17 -d out src/com/portfolio/*.java test/fintual_portfolio/*.java
+java -cp out com.portfolio.Main
+java -cp out fintual_portfolio.PortfolioTest
 ```
 
 Expected example output:
